@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Template</title>
+    <link rel="stylesheet" href="./styles/font/font.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body class="container">
+    <div class="nav">
+      <a href="#" email>
+        <img
+          src="./content/svg/command-palette.svg"
+          class="logo"
+          alt="GitHub logo"
+        />
+      </a>
+      <ul class="nav-items">
+        <a href="#about">
+          <li class="nav-link">About</li>
+        </a>
+        <a href="#projects">
+          <li class="nav-link">Projects</li>
+        </a>
+        <a href="#contact">
+          <li class="nav-link">Contact</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="section section-sm">
+      <h2 class="mb-1 faded">
+        Hi there <span role="img" alt="waving hand emoji">👋</span>
+      </h2>
+      <h1>I help people write, secure, and ship code.</h1>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.github.com/">
+          <button class="icon-button">
+            <img src="./content/svg/logo-github.svg" alt="Github" />
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/" class="social-icon">
+          <button class="icon-button">
+            <img src="./content/svg/logo-linkedin.svg" alt="LinkedIn" />
+          </button>
+        </a>
+        <a href="https://www.stackoverflow.com/" class="social-icon">
+          <button class="icon-button">
+            <img
+              src="./content/svg/logo-stackoverflow.svg"
+              alt="Stack Overflow"
+            />
+          </button>
+        </a>
+        <a href="https://www.twitter.com/">
+          <button class="icon-button">
+            <img src="./content/svg/logo-twitter.svg" alt="Twitter" />
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!--- About -->
+    <div id="about" class="section">
+      <h2 class="mb-2">About</h2>
+      <div class="flex gap">
+        <div class="full-width">
+          <p>
+            My journey into coding began in high-school, when I took a
+            Javascript class and built an open source website.
+          </p>
+          <p>
+            For a while, I developed web and mobile apps for small businesses as
+            a freelancer. I also worked at a small startup for three years as a
+            Lead Engineer. Currently, I’m the Founder of a platform marketplace
+            that connects people with services and products.
+          </p>
+          <p>
+            In my downtime you’ll find me hiking, walking my dog, or stargazing
+            with friends.
+          </p>
+        </div>
+        <div class="full-width">
+          <div>
+            <h4 class="mb-1">Front-end</h4>
+            <div class="skill-bar">
+              <div class="skill-progress skill-1"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <h4 class="mb-1">React</h4>
+            <div class="skill-bar">
+              <div class="skill-progress skill-2"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <h4 class="mb-1">Node.js</h4>
+            <div class="skill-bar">
+              <div class="skill-progress skill-3"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <h4 class="mb-1">JavaScript</h4>
+            <div class="skill-bar">
+              <div class="skill-progress skill-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="section">
+      <h2 class="mb-2">Projects</h2>
+      <!--- Div section for projects -->
+      <div class="projects">
+        <!-- Project 1 -->
+        <div class="flex gap project">
+          <img
+            src="./content/placeholder-1.png"
+            alt="Website logo"
+            class="project-image full-width"
+          />
+          <div class="project-description full-width">
+            <img
+              src="./content/svg/file-code.svg"
+              alt=""
+              class="project-icon"
+            />
+            <div class="flex-column gap-12">
+              <h3 class="mb-1">Website</h3>
+              <p>
+                An open-source forum website. Built with HTML, CSS, and
+                Javascript for the front-end, and Node.js for the back-end.
+              </p>
+            </div>
+            <a href="#"><button class="button">Learn more</button></a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="flex gap project">
+          <img
+            src="./content/placeholder-2.png"
+            alt=""
+            class="project-image full-width"
+          />
+          <div class="project-description full-width">
+            <img
+              src="./content/svg/apps.svg"
+              alt="Mobile app logo"
+              class="project-icon"
+            />
+            <div class="flex-column gap-12">
+              <h3 class="mb-1">Mobile App</h3>
+              <p>
+                A mobile app for Android and iOS. Built with Swift and Kotlin
+                for the front-end, and Node.js for the back-end.
+              </p>
+            </div>
+            <a href="#"><button class="button">Learn more</button></a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="flex gap">
+          <img
+            src="./content/placeholder-3.png"
+            alt="Platform logo"
+            class="project-image full-width"
+          />
+          <div class="project-description full-width">
+            <img src="./content/svg/rocket.svg" alt="" class="project-icon" />
+            <div class="flex-column gap-12">
+              <h3 class="mb-1">Platform</h3>
+              <p>
+                A marketplace platform for finding services and products. Used
+                React.js for the front-end and Node.js for the back-end.
+              </p>
+            </div>
+            <a href="#"><button class="button">Learn more</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Contact -->
+    <div id="contact" class="section section-xs">
+      <h2 class="mb-2">Contact</h2>
+      <form action="">
+        <div class="mb-2">
+          <label class="mb-1" for="from">Name</label>
+          <input class="input" type="text" id="name" placeholder="Name" />
+        </div>
+        <div class="mb-2">
+          <label class="mb-1" for="from">Email</label>
+          <input class="input" type="email" id="email" placeholder="Email" />
+        </div>
+        <div class="mb-2">
+          <label class="mb-1" for="message">Message</label>
+          <textarea
+            class="input"
+            name="message"
+            wrap="soft"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Start typing..."
+          ></textarea>
+        </div>
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>© 2022 GitHub, Inc.</p>
+      <p>
+        Built with
+        <a
+          target="_blank"
+          href="https://github.com/features/codespaces"
+          class="btn btn-secondary"
+          >Codespaces</a
+        >
+      </p>
+    </div>
+  </body>
+</html>

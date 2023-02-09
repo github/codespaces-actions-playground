@@ -1,0 +1,15 @@
+{
+    "name": "GitHub Actions Demo",
+    "onCreateCommand": ".devcontainer/setup.sh",
+    "customizations": {
+        "codespaces": {
+          "openFiles": []  
+        },
+        "vscode": {
+          "extensions": [
+            "${containerWorkspaceFolder}/.devcontainer/extensions/github-actions-demo-0.0.51.vsix",
+            "redhat.vscode-yaml"
+          ]
+        }
+    }
+}

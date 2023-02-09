@@ -1,0 +1,4 @@
+👋 Welcome to the GitHub Actions Playground! Please wait for the walkthrough to appear!
+
+🔍 To bring back the walkthrough, search for "GitHub Actions Demo" using the Command Palette (Cmd/Ctrl + Shift + P)
+
