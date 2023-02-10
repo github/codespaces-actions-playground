@@ -7,7 +7,7 @@
         },
         "vscode": {
           "extensions": [
-            "${containerWorkspaceFolder}/.devcontainer/extensions/github-actions-demo-0.0.51.vsix",
+            "${containerWorkspaceFolder}/.devcontainer/extensions/github-actions-demo-0.0.52.vsix",
             "redhat.vscode-yaml"
           ]
         }
