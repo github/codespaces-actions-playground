@@ -6,6 +6,6 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
+      - name: Hello_world
         run: |
           echo "Hello world"
