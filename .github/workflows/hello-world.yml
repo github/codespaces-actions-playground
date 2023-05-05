@@ -1,4 +1,4 @@
-name: Hello-world
+name: Hello　world
 
 on: [push]
 
@@ -6,6 +6,6 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello_world
+      - name: Hello world
         run: |
           echo "Hello world"
