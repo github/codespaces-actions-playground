@@ -1,6 +1,6 @@
 # GitHub Actions Playground
 
-Lint workflow test
+Lint workflow test from other branch
 
 Welcome to the GitHub Actions Playground! We've got everything fired up and running for you to explore GitHub Actions.
 
