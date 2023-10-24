@@ -1,7 +1,7 @@
 # GitHub Actions Playground
 
 > Thank you for trying the GitHub Actions Playground! This repository is no longer being maintained and is now archived.
-Please visit https://skills.github.com/ to continue your GitHub learning journey
+Please visit [GitHub Skills](https://skills.github.com/) to continue your GitHub learning journey
 
 Welcome to the GitHub Actions Playground! We've got everything fired up and running for you to explore GitHub Actions.
 
